@@ -1,0 +1,192 @@
+.navi {
+	float: right;
+	color: white;
+}
+
+.linkcolor {
+	color: white;
+}
+
+.butt {
+	background-color: black;
+	border: 2px solid white;
+	border-radius: 16px;
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.butt:hover {
+	background-color: white;
+	color: black;
+}
+
+.jnm {
+	background-image: url('../images/piano.jpg');
+	width: 100%;
+	margin-top: 56px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+	font-size: 80px;
+	color: white;
+}
+
+.head2 {
+	font-size: 50px;
+	color: white;
+}
+
+.carb {
+	max-width: 1250px;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+.head5 {
+	color: black;
+	font-size: 40px;
+	padding-left: 10px;
+	font-style: serif;
+}
+
+.cardp {
+	color: darkgrey;
+	padding-left: 10px;
+}
+
+.para5 {
+	color: rgb(139, 124, 236);
+	padding-left: 10px;
+}
+
+.prog {
+	color: white;
+	font-size: 45px;
+	font-family: "Times New Roman, Times, serif;"
+}
+
+.para {
+	color: white;
+}
+
+.grey {
+	background-color: #54595F;
+	width: 100%;
+	text-align: center;
+	font-size: 60px;
+	padding: 60px 0;	
+}
+
+.music {
+	background-image: url('../images/music-background.jpg');
+}
+
+.drm {
+	font-size: 55px;
+}
+
+.par {
+	font-size: 30px;
+	color: white;
+}
+
+.button {
+	border: 6px solid black;
+	border-radius: 24px;
+	background-color: white;
+	color: black;
+	margin-right: 60px;
+	padding: 20px;
+}
+
+.button:hover {
+	color: white;
+	background-color: lightblue;
+}
+
+.card2 {
+	background-color: rgb(29, 28, 28);
+}
+
+.car {
+	background-color: rgb(29, 28, 28);
+	border: none;
+}
+
+.back {
+	background-image: url('../images/darkblue music.jpg');
+}
+
+.marg {
+	color: #fff;
+}
+
+.grid-container {
+	text-align: left;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-template-rows: 80px 100px;
+	grid-gap: 20px;
+	padding: 10px;
+}
+
+.blu {
+	background-color: rgb(53, 89, 105);
+	padding: 40px 0;
+}
+
+.dream {
+	text-align: center;
+	background-image: url('../images/hand-piano.jpg');
+	padding: 50px;
+	height: 350px;
+	color: black;
+}
+
+.subs {
+	background-color: rgb(53, 89, 105);
+	color: white;
+	border: 2px solid white;
+	border-radius: 25px;
+	padding: 20px;
+}
+
+.subs:hover {
+	background-color: black;
+}
+input[type=text] {
+	width: 50%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 2px solid grey;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    flex-flow: wrap;
+}
+.desc {
+    color: #fff;
+    padding-left: 10px;
+}
+@media(max-width: 767px) {
+	body {
+		display: block;
+		padding-left: 0px;
+		width: 100%;
+	}
+	h1 {
+		font-size: 50px;
+		color: white;
+		width: 100%;
+	}
+	
+}
+
